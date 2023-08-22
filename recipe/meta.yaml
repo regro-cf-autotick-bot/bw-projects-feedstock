@@ -1,5 +1,5 @@
 {% set name = "bw-projects" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bw-projects-{{ version }}.tar.gz
-  sha256: 5ac870103c3b8b84bc7a43e07c938fc1932fd3d40d34f1ffc04b02212dcaa88f
+  sha256: 31bf2c8be9b4ecc7f3b151d0d9f75123309ebb87062f601efab19778604876b2
 
 build:
   noarch: python
